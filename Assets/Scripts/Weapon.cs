@@ -14,6 +14,13 @@ public class Weapon : MonoBehaviour
 
     public GameObject bullet;
 
+    
+
+    private void Start()
+    {
+        
+    }
+
     private void Update()
     {
         shotPoint.LookAt(targetLook);
@@ -25,7 +32,6 @@ public class Weapon : MonoBehaviour
 
     public void Shot()
     {
-
         Instantiate(bullet, shotPoint.position, shotPoint.rotation);
     }
     

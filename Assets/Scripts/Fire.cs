@@ -10,12 +10,23 @@ public class Fire : MonoBehaviour
     public GameObject targetLook;
     public GameObject playerCamera;
     
+    public ParticleSystem muzzle;
+    public AudioSource audioSource;
+    public AudioClip shootClip;
+
+
+    private void Start()
+    {
+        //audioSource = GetComponent<AudioSource>();
+    }
 
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
             weapon.Shot();
+            muzzle.Play();
+            //audioSource.PlayOneShot(shootClip);
         }   
         
         TargetLook();
