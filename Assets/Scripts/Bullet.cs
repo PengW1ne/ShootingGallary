@@ -24,11 +24,11 @@ public class Bullet : MonoBehaviour
 
         if (Physics.Linecast(lastPos, transform.position, out hit))
         {
-            print(hit.transform.name);
             GameObject d = Instantiate<GameObject>(decal);
             d.transform.position = hit.point + hit.normal * 0.001f;
             d.transform.rotation = Quaternion.LookRotation(-hit.normal);
             Destroy(d,10);
+            Destroy(gameObject,2);
         }
         lastPos = transform.position;
     }

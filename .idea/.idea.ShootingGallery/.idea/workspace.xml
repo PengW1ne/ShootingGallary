@@ -41,6 +41,7 @@
         <option value="$PROJECT_DIR$/Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
       </list>
     </option>
   </component>
@@ -96,6 +97,9 @@
       <workItem from="1624639469894" duration="837000" />
       <workItem from="1624646347357" duration="1208000" />
       <workItem from="1626085478531" duration="1525000" />
+      <workItem from="1626109380742" duration="1671000" />
+      <workItem from="1626336474675" duration="770000" />
+      <workItem from="1626630200516" duration="823000" />
     </task>
     <servers />
   </component>
@@ -114,6 +118,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
