@@ -8,8 +8,6 @@ public class PistolPickUp : MonoBehaviour
 {
     public GameObject M4;
     public GameObject Pistol;
-    
-    public GameObject Pistol_trigger;
 
     public Text TextPickUpPistol;
     // Start is called before the first frame update

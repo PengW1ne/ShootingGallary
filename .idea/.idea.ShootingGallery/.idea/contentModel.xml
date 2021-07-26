@@ -6,6 +6,7 @@
     <e p="D:\Unyti\Projects\ShootingGallery" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="GameOverChecker.cs" t="Include" />
         <e p="ModularFirstPersonController" t="Include">
           <e p="FirstPersonController" t="Include">
             <e p="FirstPersonController.cs" t="Include" />
@@ -16,6 +17,8 @@
           <e p="Fire.cs" t="Include" />
           <e p="M4PickUp.cs" t="Include" />
           <e p="PistolPickUp.cs" t="Include" />
+          <e p="StartFireLineTrigger.cs" t="Include" />
+          <e p="TargetsSpawner.cs" t="Include" />
           <e p="Weapon.cs" t="Include" />
         </e>
         <e p="ShootingGallery - Enviroment Pack" t="Include">

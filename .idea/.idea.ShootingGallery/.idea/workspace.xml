@@ -28,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/GameOverChecker.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -38,10 +41,16 @@
         <option value="$PROJECT_DIR$/Assets/Shoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Fire.cs" />
         <option value="$PROJECT_DIR$/Assets/Weapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PistolPickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/StartFireLineTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fire.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/TargetsSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StartFireLineTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetsSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameOverChecker.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +109,19 @@
       <workItem from="1626109380742" duration="1671000" />
       <workItem from="1626336474675" duration="770000" />
       <workItem from="1626630200516" duration="823000" />
+      <workItem from="1626958266831" duration="1464000" />
+      <workItem from="1626960059623" duration="1774000" />
+      <workItem from="1626961873031" duration="1424000" />
+      <workItem from="1627019493545" duration="1185000" />
+      <workItem from="1627035831068" duration="1767000" />
+      <workItem from="1627037667283" duration="1883000" />
+      <workItem from="1627039777335" duration="3237000" />
+      <workItem from="1627043242443" duration="1768000" />
+      <workItem from="1627045071007" duration="1897000" />
+      <workItem from="1627047015192" duration="1530000" />
+      <workItem from="1627050158094" duration="1748000" />
+      <workItem from="1627051997351" duration="1396000" />
+      <workItem from="1627053528576" duration="1618000" />
     </task>
     <servers />
   </component>

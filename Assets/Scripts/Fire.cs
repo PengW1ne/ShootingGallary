@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
+using UnityEngine.Events;
 
 public class Fire : MonoBehaviour
 {
@@ -16,17 +17,11 @@ public class Fire : MonoBehaviour
     public ParticleSystem muzzle;
     public AudioSource audioSource;
     public AudioClip shootClip;
-
-
-    private void Start()
-    {
-        //audioSource = GetComponent<AudioSource>();
-    }
-
+    
+    
     private void Update()
     {
-        
-            if (weapon.name == "Pistol")
+        if (weapon.transform.GetChild(0).gameObject.activeInHierarchy)
             {
                 FirstPersonController.enableZoom = false;
                 if (Input.GetMouseButtonDown(0))
@@ -37,7 +32,7 @@ public class Fire : MonoBehaviour
                     }
                 }
             }
-            else if (weapon.name == "M4")
+            else if (weapon.transform.GetChild(1).gameObject.activeInHierarchy)
             {
                 FirstPersonController.enableZoom = true;
                 if (Input.GetMouseButton(0))
